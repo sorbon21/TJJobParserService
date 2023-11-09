@@ -6,10 +6,17 @@
     "license": "MIT",
     "require": {
         "php": "^8.1",
-        "guzzlehttp/guzzle": "^7.2",
+        "ext-dom": "*",
+        "guzzlehttp/guzzle": "^7.8",
+        "irazasyed/telegram-bot-sdk": "^3.13",
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.3",
-        "laravel/tinker": "^2.8"
+        "laravel/tinker": "^2.8",
+        "php-curl-class/php-curl-class": "^9.18",
+        "sunra/php-simple-html-dom-parser": "^1.5",
+        "symfony/dom-crawler": "^6.3",
+        "zenthangplus/html-dom-parser": "^1.0",
+      "ext-gd": "*"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
